@@ -1,0 +1,38 @@
+  [
+    {
+        "productName": "Chana Dal samhh",
+        "quantity": 12,
+        "subscriptionType": "",
+        "salePrice": "109",
+        "discount": "8",
+        "gstPercent": "7",
+        "finalPrice": 1288,
+        "productId": "a64b8ea9-a2c8-4280-ac59-de4f15b0eaa9",
+        "subscriptionEligible": false,
+        "purchasePrice": "99"
+    },
+    {
+        "productName": "Premia Chana Dal ",
+        "quantity": 6,
+        "subscriptionType": "",
+        "salePrice": "100",
+        "discount": "7",
+        "gstPercent": "6",
+        "finalPrice": 592,
+        "productId": "9c6143fc-9600-4a49-8599-d3f5674b81e0",
+        "subscriptionEligible": false,
+        "purchasePrice": "90"
+    },
+    {
+        "productName": "Satyam Chana Dal",
+        "quantity": 2,
+        "subscriptionType": "",
+        "salePrice": "104",
+        "discount": "7",
+        "gstPercent": "6",
+        "finalPrice": 206,
+        "productId": "4552281b-06b0-4a36-88e1-086c594dfd47",
+        "subscriptionEligible": false,
+        "purchasePrice": "94"
+    }
+]

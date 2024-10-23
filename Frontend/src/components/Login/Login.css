@@ -1,0 +1,117 @@
+/* Container for the login form */
+.login-box {
+  width: 87%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Style the input fields */
+.user-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.user-box input {
+  width: 100%;
+  padding: 10px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #080909;
+  outline: none;
+  color: #333;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #0d0d0e;
+  pointer-events: none;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  top: -20px;
+  font-size: 12px;
+  color: #0c0c0c;
+}
+
+/* Error messages */
+.error-messages {
+  color: red;
+  font-size: 12px;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #056e2d;
+  color: white;
+  padding: 10px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Forgot password link */
+.login-box a {
+  text-decoration: none;
+  color: #0d0d0d;
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-box a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Forgot password modal */
+.modal-dialog {
+  max-width: 500px;
+  margin: 1.75rem auto;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+/* Register link */
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
